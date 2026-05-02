@@ -26,8 +26,8 @@ This tool wraps all of that into a single graphical interface — useful especia
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/wine-game-installer
-cd wine-game-installer
+git clone https://github.com/your-username/wine-game-installer /tmp/wine-game-installer
+xdg-open /tmp/wine-game-installer
 ```
 
 Then double-click `install.sh` in the file manager → click **Execute**.
