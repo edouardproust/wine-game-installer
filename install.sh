@@ -66,3 +66,9 @@ echo "   → Or run: python3 ~/Applications/wine-game-installer.py"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 read -p "Press Enter to close..."
+
+# ── Cleanup ───────────────────────────────────────────────────
+rm -f "$SCRIPT_DIR/wine-game-installer.py"
+rm -f "$SCRIPT_DIR/install.sh"
+rm -f "$SCRIPT_DIR/README.md"
+rmdir "$SCRIPT_DIR" 2>/dev/null || true

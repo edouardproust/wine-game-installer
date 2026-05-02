@@ -26,11 +26,12 @@ This tool wraps all of that into a single graphical interface — useful especia
 ## Installation
 
 ```bash
-git clone https://github.com/edouardproust/wine-game-installer /tmp/wine-game-installer
-xdg-open /tmp/wine-game-installer
+git clone https://github.com/edouardproust/wine-game-installer
+cd wine-game-installer
+sh ./install.sh
 ```
 
-Then double-click `install.sh` in the file manager → click **Execute**.
+The installer will copy the app to `~/Applications/`, add a shortcut to the KDE menu, then clean up the cloned folder automatically.
 
 This will:
 - Copy the app to `~/Applications/`
