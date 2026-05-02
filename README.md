@@ -26,7 +26,7 @@ This tool wraps all of that into a single graphical interface — useful especia
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/wine-game-installer /tmp/wine-game-installer
+git clone https://github.com/edouardproust/wine-game-installer /tmp/wine-game-installer
 xdg-open /tmp/wine-game-installer
 ```
 
