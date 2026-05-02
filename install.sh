@@ -19,12 +19,6 @@ if [ ! -f "$APP_SRC" ]; then
     exit 1
 fi
 
-if ! command -v python3 &>/dev/null; then
-    echo "✗  Error: python3 not found."
-    read -p "Press Enter to close..."
-    exit 1
-fi
-
 # ── Install ───────────────────────────────────────────────────
 echo "── Installing Wine Game Installer..."
 
